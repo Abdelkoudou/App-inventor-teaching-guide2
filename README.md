@@ -1,8 +1,12 @@
 # 🚀 App Inventor & ESP32 Youth Development Program
-## "Code Creators: From Ideas to Interactive Apps"
+## "Code • Connect • Create"
+
+<div align="center">
+  <img src="assets/logo.svg" alt="Code • Connect • Create Logo" width="400"/>
+</div>
 
 ### Program Overview
-A comprehensive 30-session yearly program designed to teach kids aged 12-18 app development using MIT App Inventor and ESP32 microcontrollers. This program transforms beginners into confident app developers through hands-on projects and interactive learning.
+A comprehensive 30-session yearly program designed to teach kids aged 12-18 app development using MIT App Inventor and ESP32 microcontrollers. This program transforms beginners into confident developers through hands-on projects in **coding**, **connectivity**, and **creativity** - focusing on apps, IoT, and robotics integration.
 
 ---
 

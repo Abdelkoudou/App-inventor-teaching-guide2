@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="300" height="60" viewBox="0 0 300 60" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Gradient definitions -->
+    <linearGradient id="codeGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4F46E5;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#7C3AED;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="connectGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#059669;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0D9488;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="createGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#DC2626;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#EA580C;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- CODE Section -->
+  <g id="code-section">
+    <path d="M15 20 L10 25 L15 30" stroke="url(#codeGradient)" stroke-width="2" fill="none" stroke-linecap="round"/>
+    <path d="M25 20 L30 25 L25 30" stroke="url(#codeGradient)" stroke-width="2" fill="none" stroke-linecap="round"/>
+    <rect x="12" y="35" width="12" height="18" rx="2" fill="url(#codeGradient)" opacity="0.8"/>
+    <rect x="14" y="37" width="8" height="12" rx="1" fill="white"/>
+    <text x="40" y="30" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="url(#codeGradient)">CODE</text>
+  </g>
+  
+  <!-- Separator -->
+  <circle cx="85" cy="25" r="2" fill="#94A3B8"/>
+  
+  <!-- CONNECT Section -->
+  <g id="connect-section">
+    <circle cx="110" cy="20" r="3" fill="url(#connectGradient)"/>
+    <circle cx="125" cy="15" r="3" fill="url(#connectGradient)"/>
+    <circle cx="140" cy="20" r="3" fill="url(#connectGradient)"/>
+    <line x1="110" y1="20" x2="125" y2="15" stroke="url(#connectGradient)" stroke-width="1.5"/>
+    <line x1="125" y1="15" x2="140" y2="20" stroke="url(#connectGradient)" stroke-width="1.5"/>
+    
+    <path d="M115 35 Q125 30 135 35" stroke="url(#connectGradient)" stroke-width="1.5" fill="none"/>
+    <path d="M110 40 Q125 30 140 40" stroke="url(#connectGradient)" stroke-width="1.5" fill="none"/>
+    <circle cx="125" cy="42" r="1.5" fill="url(#connectGradient)"/>
+    
+    <text x="165" y="30" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="url(#connectGradient)">CONNECT</text>
+  </g>
+  
+  <!-- Separator -->
+  <circle cx="215" cy="25" r="2" fill="#94A3B8"/>
+  
+  <!-- CREATE Section -->
+  <g id="create-section">
+    <ellipse cx="240" cy="20" rx="5" ry="8" fill="url(#createGradient)" opacity="0.8"/>
+    <rect x="237" y="26" width="6" height="2" fill="url(#createGradient)"/>
+    
+    <g transform="translate(250, 35)">
+      <circle cx="0" cy="0" r="5" fill="url(#createGradient)"/>
+      <circle cx="0" cy="0" r="2.5" fill="white"/>
+      <rect x="-1" y="-6" width="2" height="2" fill="url(#createGradient)"/>
+      <rect x="-1" y="4" width="2" height="2" fill="url(#createGradient)"/>
+      <rect x="-6" y="-1" width="2" height="2" fill="url(#createGradient)"/>
+      <rect x="4" y="-1" width="2" height="2" fill="url(#createGradient)"/>
+    </g>
+    
+    <text x="285" y="30" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="url(#createGradient)">CREATE</text>
+  </g>
+</svg>
