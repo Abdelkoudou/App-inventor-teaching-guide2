@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="300" height="300" viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="badgeGradient" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#FFFFFF;stop-opacity:1" />
+      <stop offset="70%" style="stop-color:#F8FAFC;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#E2E8F0;stop-opacity:1" />
+    </radialGradient>
+    <linearGradient id="ringGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4F46E5;stop-opacity:1" />
+      <stop offset="33%" style="stop-color:#7C3AED;stop-opacity:1" />
+      <stop offset="66%" style="stop-color:#EC4899;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#F59E0B;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Outer ring -->
+  <circle cx="150" cy="150" r="140" fill="url(#ringGradient)"/>
+  
+  <!-- Inner circle -->
+  <circle cx="150" cy="150" r="125" fill="url(#badgeGradient)"/>
+  
+  <!-- Three C's arranged in triangle -->
+  <!-- Code (top) -->
+  <g transform="translate(150, 80)">
+    <circle cx="0" cy="0" r="25" fill="#4F46E5" opacity="0.1"/>
+    <text x="0" y="8" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#4F46E5">C</text>
+    <text x="0" y="45" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#4F46E5">CODE</text>
+  </g>
+  
+  <!-- Connect (bottom left) -->
+  <g transform="translate(105, 190)">
+    <circle cx="0" cy="0" r="25" fill="#7C3AED" opacity="0.1"/>
+    <text x="0" y="8" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#7C3AED">C</text>
+    <text x="0" y="45" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#7C3AED">CONNECT</text>
+  </g>
+  
+  <!-- Create (bottom right) -->
+  <g transform="translate(195, 190)">
+    <circle cx="0" cy="0" r="25" fill="#EC4899" opacity="0.1"/>
+    <text x="0" y="8" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#EC4899">C</text>
+    <text x="0" y="45" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#EC4899">CREATE</text>
+  </g>
+  
+  <!-- Connecting lines -->
+  <line x1="150" y1="105" x2="125" y2="165" stroke="#CBD5E1" stroke-width="2" opacity="0.5"/>
+  <line x1="150" y1="105" x2="175" y2="165" stroke="#CBD5E1" stroke-width="2" opacity="0.5"/>
+  <line x1="125" y1="190" x2="175" y2="190" stroke="#CBD5E1" stroke-width="2" opacity="0.5"/>
+  
+  <!-- Center text -->
+  <text x="150" y="150" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#374151">
+    Youth Program
+  </text>
+  
+  <!-- Bottom arc text -->
+  <path id="bottomArc" d="M 80 220 A 70 70 0 0 0 220 220" fill="none"/>
+  <text font-family="Arial, sans-serif" font-size="12" fill="#6B7280">
+    <textPath href="#bottomArc" startOffset="50%" text-anchor="middle">
+      Apps • IoT • Robotics
+    </textPath>
+  </text>
+</svg>

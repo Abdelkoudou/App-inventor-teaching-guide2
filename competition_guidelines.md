@@ -1,5 +1,5 @@
 # 🏆 App of the Month Competition Guidelines
-## "Code Creators Challenge"
+## "Code • Connect • Create Challenge"
 
 ### Competition Overview
 The App of the Month competition is designed to encourage creativity, technical skills, and peer learning among students. Starting from Session 12, students will participate in monthly app development challenges that showcase their growing skills.
